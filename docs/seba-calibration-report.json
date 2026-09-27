@@ -1,0 +1,54 @@
+{
+  "executedAt": "2026-09-27T23:04:20.002Z",
+  "classifierFingerprint": "7b8e9fd13c840622a857e932ca3b4566d59ce44195e788d42044a66616acf854",
+  "evaluationType": "Calibration agreement, not independent validation",
+  "referenceCount": 40,
+  "agreements": 38,
+  "agreementRate": 0.95,
+  "matrix": {
+    "include": {
+      "include": 10,
+      "maybe": 0,
+      "exclude": 0
+    },
+    "maybe": {
+      "include": 0,
+      "maybe": 4,
+      "exclude": 0
+    },
+    "exclude": {
+      "include": 1,
+      "maybe": 1,
+      "exclude": 24
+    }
+  },
+  "differences": [
+    {
+      "excelRow": 31,
+      "title": "Practical Implementation Report on Introducing Spec-Driven Development Using AI Agents in Software Development PBL",
+      "seba": "exclude",
+      "jev": "include",
+      "probabilities": {
+        "include": 0.44,
+        "maybe": 0.28,
+        "exclude": 0.28
+      }
+    },
+    {
+      "excelRow": 41,
+      "title": "Do Not Copy/Paste: Soft Barriers for Copying in AI-Assisted Programming",
+      "seba": "exclude",
+      "jev": "maybe",
+      "probabilities": {
+        "include": 0.22,
+        "maybe": 0.44,
+        "exclude": 0.34
+      }
+    }
+  ],
+  "all61Counts": {
+    "Definitely exclude": 37,
+    "Definitely include": 17,
+    "Maybe include": 7
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "excelRow": 2,
+    "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Presentan un pipeline para agentic coding"
+  },
+  {
+    "excelRow": 3,
+    "title": "How Researchers Use and Verify AI Coding Assistants: Tasks and Validation Practices in Scientific Programming",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Es research programming"
+  },
+  {
+    "excelRow": 4,
+    "title": "Two's a Crowd: Human and AI-Based Copresence for Developers with ADHD",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Developers con ADHD y uso de IA"
+  },
+  {
+    "excelRow": 5,
+    "title": "SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Presentan un pipeline"
+  },
+  {
+    "excelRow": 6,
+    "title": "(Don't) Trust, but (Don't) Verify: Developers' Attention to Security in AI-Generated Code",
+    "sebaDecision": "Include",
+    "sebaNote": "Estudio observacional sobre security in ai-generated code"
+  },
+  {
+    "excelRow": 7,
+    "title": "A Security Risk Assessment Framework for AI-Powered Development Tools",
+    "sebaDecision": "Maybe include",
+    "sebaNote": "Presetan un framework para evaluar the security risks of ai-generated code. Lo evaluan probaron haciendo unas tareas de programación."
+  },
+  {
+    "excelRow": 8,
+    "title": "A Study of the Reliability of Agentic AI-Generated Programs",
+    "sebaDecision": "Include",
+    "sebaNote": "Evaluan ai-generated code."
+  },
+  {
+    "excelRow": 9,
+    "title": "An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks",
+    "sebaDecision": "Include",
+    "sebaNote": "Evaluan ai-generated code."
+  },
+  {
+    "excelRow": 10,
+    "title": "MTAC-IFBench: Benchmarking Instruction-Following in Multi-Turn Agentic Coding",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen un benchmark para instruction-following in multi-turn agentic coding."
+  },
+  {
+    "excelRow": 11,
+    "title": "Introspective Uncertainty Estimation for LLM-Based Code Generation",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Es una tesis"
+  },
+  {
+    "excelRow": 12,
+    "title": "Reality Is the Final Verifier: On Two Key Gaps in Agentic Software Engineering",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen un assurance-revision loop"
+  },
+  {
+    "excelRow": 13,
+    "title": "LLMVul: A Vulnerability-Labeled Dataset of LLM-Generated C/C++ Functions from Real Production Repositories",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Presentan un  vulnerability-labeled dataset of LLM-generated C/C++ functions "
+  },
+  {
+    "excelRow": 14,
+    "title": "Context operations to architecture modelling output from large language models and evaluation criteria for their use in systems engineering design",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen un framework"
+  },
+  {
+    "excelRow": 15,
+    "title": "XAgent: eXecution-guided Agentic AI for Effective Localization and Resolution of GitHub Issues",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen un framework"
+  },
+  {
+    "excelRow": 16,
+    "title": "The Vibe Shift in Software Engineering: Evaluating AI-Led Conversational Programming for Performance, Cognition, and Responsible Adoption",
+    "sebaDecision": "Include",
+    "sebaNote": "Se estudia vibe coding"
+  },
+  {
+    "excelRow": 17,
+    "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+    "sebaDecision": "Include",
+    "sebaNote": "Evaluan ai-generated code."
+  },
+  {
+    "excelRow": 18,
+    "title": "It Is Not My Code Anymore",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Artículo de opinión."
+  },
+  {
+    "excelRow": 19,
+    "title": "Measuring the Security of the Evolving Software Supply Chain: a Research Agenda",
+    "sebaDecision": "Exclude",
+    "sebaNote": "No es un estudio empirico ni es sobre IA-assited coding"
+  },
+  {
+    "excelRow": 20,
+    "title": "CodeTD: Topology of Attention Detects Hallucinations in Code LLMs",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen algo"
+  },
+  {
+    "excelRow": 21,
+    "title": "Do AI Coding Assistants Check Before They Install? A Pre-Registered Demand-Side Audit of Trust Signals in the Research Software Supply Chain",
+    "sebaDecision": "Maybe include",
+    "sebaNote": "Es sobre usar la IA para instaalar software."
+  },
+  {
+    "excelRow": 22,
+    "title": "How Developers Discuss Generative AI: A Longitudinal Study of the Visual Studio Code Community",
+    "sebaDecision": "Include",
+    "sebaNote": "Analizan comentarios de programadores sobre GenAI tools en un respositorio github."
+  },
+  {
+    "excelRow": 23,
+    "title": "An Empirical Analysis of CodeQL False Positives and Query Refinements for Java Vulnerabilities",
+    "sebaDecision": "Exclude",
+    "sebaNote": "No es un estudio empirico ni es sobre IA-assited coding"
+  },
+  {
+    "excelRow": 24,
+    "title": "TIPCODER: Reinforcement Learning Boosted Test-time Instruction Proposer for Code Generation",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen algo"
+  },
+  {
+    "excelRow": 25,
+    "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen un framework"
+  },
+  {
+    "excelRow": 26,
+    "title": "What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal",
+    "sebaDecision": "Maybe include",
+    "sebaNote": "Proponen y evaluan un profile para benchmarks para agentes en sw development."
+  },
+  {
+    "excelRow": 27,
+    "title": "Skill-as-API: Confidential Multi-Agent Coordination for Agentic Software Engineering",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Es sobre coordinación de agentes. Proponen algo"
+  },
+  {
+    "excelRow": 28,
+    "title": "Predicting Program Exit Code with LLMs and Programming Language Semantics",
+    "sebaDecision": "Maybe include",
+    "sebaNote": "Evaluan como los LLMs predicen cuando un programa es semanticamente valido o invalido."
+  },
+  {
+    "excelRow": 29,
+    "title": "LipCoder: Voice-Enabled Coding Toolkit",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Presenta un toolkit"
+  },
+  {
+    "excelRow": 30,
+    "title": "A Phased Workflow for Operating LLM-Based Coding Agents",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Presentan un workflow para manejar llm-bsed coding"
+  },
+  {
+    "excelRow": 31,
+    "title": "Practical Implementation Report on Introducing Spec-Driven Development Using AI Agents in Software Development PBL",
+    "sebaDecision": "Exclude",
+    "sebaNote": "No es una evaluación"
+  },
+  {
+    "excelRow": 32,
+    "title": "Drishti: AI-Led Human-Directed Vulnerability Auditing for 5G Cores",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Presentan un framework"
+  },
+  {
+    "excelRow": 33,
+    "title": "Towards Effective Generation of Interactive Visualizations with Vibe Coding: An Empirical Study",
+    "sebaDecision": "Include",
+    "sebaNote": "Evaluan opiniones de practicantes sobre vibe coding"
+  },
+  {
+    "excelRow": 34,
+    "title": "Software Aging in LLM-Generated Applications: Runtime Evidence, Static Analysis, and Human-Written Comparisons",
+    "sebaDecision": "Include",
+    "sebaNote": "Evaluan aplicaciones generadas por LLMs en ejecución"
+  },
+  {
+    "excelRow": 35,
+    "title": "SpecMine: A Large-Scale Corpus of Spec-Driven Development Artifacts",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Presentan un corpus"
+  },
+  {
+    "excelRow": 36,
+    "title": "Model-Based Agentic Software Engineering",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Presentan un framework"
+  },
+  {
+    "excelRow": 37,
+    "title": "Evaluating and Preventing Security Smells in AI-Generated Ansible Code",
+    "sebaDecision": "Include",
+    "sebaNote": "Evaluan smells de seguridad en ai-generated code"
+  },
+  {
+    "excelRow": 38,
+    "title": "From Metrics to Improvement: A Lifecycle-Aware LLM Feedback Framework for Research Software Quality",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen un framework y es sobre research software."
+  },
+  {
+    "excelRow": 39,
+    "title": "Concepts for Securing Agentic AI Coding and the Terok Environment",
+    "sebaDecision": "Exclude",
+    "sebaNote": "No es un estudio empirico."
+  },
+  {
+    "excelRow": 40,
+    "title": "Evaluating Inference-Time Defenses Against Package Hallucination in LLM-Generated Code",
+    "sebaDecision": "Include",
+    "sebaNote": "Evalua codigo generado por IA"
+  },
+  {
+    "excelRow": 41,
+    "title": "Do Not Copy/Paste: Soft Barriers for Copying in AI-Assisted Programming",
+    "sebaDecision": "Exclude",
+    "sebaNote": "Proponen algo"
+  }
+]

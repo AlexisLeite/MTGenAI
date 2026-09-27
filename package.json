@@ -1,0 +1,27 @@
+{
+  "name": "mtgenai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/*.test.js",
+    "sheet:inspect": "npm run build && node dist/sheetCli.js inspect",
+    "sheet:read": "npm run build && node dist/sheetCli.js read",
+    "papers:classify": "npm run build && node dist/classifyPapers.js",
+    "papers:preview": "npm run build && node dist/classifyPapers.js --dry-run"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "fflate": "^0.8.3",
+    "read-excel-file": "^9.3.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  },
+  "overrides": {}
+}

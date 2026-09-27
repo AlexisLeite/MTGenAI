@@ -1,0 +1,2143 @@
+{
+  "sourceFile": "/repos/mtgenai/docs/Protocolo GenAIDevIssues.xlsx",
+  "sheetName": "Clasificación Arxiv Alexis",
+  "firstRow": 2,
+  "lastRow": 62,
+  "results": [
+    {
+      "excelRow": 2,
+      "arxivId": "260922068",
+      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "contentHash": "c0651c7d594b2617264bef757027cbb5c8368ccd6d8c5d2c41a1e8dc31f75f65",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.81,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.91,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.08,
+        "maybe": 0.05,
+        "exclude": 0.87
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1546,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 3,
+      "arxivId": "260922049",
+      "title": "How Researchers Use and Verify AI Coding Assistants: Tasks and Validation Practices in Scientific Programming",
+      "contentHash": "aeda8789cb8670aa89ed887256c06f4114f41022d40441ab5c1882015d7770b4",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.98,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.9,
+        "evaluatesAiCoding": 0.99,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.99,
+        "maybe": 0.01,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1510,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 4,
+      "arxivId": "260921254",
+      "title": "Two's a Crowd: Human and AI-Based Copresence for Developers with ADHD",
+      "contentHash": "0c4c91a1e3acfdfd4641316e976d8e0e0cec074b323e826f338b4844825bec9a",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "The evidence or model agreement is insufficient for definite inclusion.",
+      "modelDecision": "include",
+      "modelConfidence": 0.71,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.83,
+        "evaluatesAiCoding": 0.78,
+        "empirical": 1,
+        "focus": 0.55
+      },
+      "probabilities": {
+        "include": 0.81,
+        "maybe": 0.15,
+        "exclude": 0.04
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1501,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 5,
+      "arxivId": "260921190",
+      "title": "SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?",
+      "contentHash": "1b71a888b39befb01f910ffc2e3d68db27c7756cf0c524502c4dd435c9c71ef0",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "include",
+      "modelConfidence": 0.15,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.9,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.87
+      },
+      "probabilities": {
+        "include": 0.43,
+        "maybe": 0.18,
+        "exclude": 0.39
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1585,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 6,
+      "arxivId": "260921020",
+      "title": "(Don't) Trust, but (Don't) Verify: Developers' Attention to Security in AI-Generated Code",
+      "contentHash": "555ee831b9ff1df4384b770c0c95e128f488866866864f953e4e01c03580514e",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 1,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.91,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 1,
+        "maybe": 0,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1433,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 7,
+      "arxivId": "260918658",
+      "title": "A Security Risk Assessment Framework for AI-Powered Development Tools",
+      "contentHash": "30b336d5f9536b9f3734957ecf96a1dfb68c0d8bae2cddc721db0f7697dcc03f",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.99,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.78,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.98
+      },
+      "probabilities": {
+        "include": 1,
+        "maybe": 0,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1445,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 8,
+      "arxivId": "260918298",
+      "title": "A Study of the Reliability of Agentic AI-Generated Programs",
+      "contentHash": "3bd119ec45b51a5ff0ba2888b2bdfd71cbb1279739e09c2feda65d7349dd06a1",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.98,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.94,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.99,
+        "maybe": 0.01,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1563,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 9,
+      "arxivId": "260918052",
+      "title": "An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks",
+      "contentHash": "1aaed45038d9dea1e379ca5d76c8b4cdf466b445490fc98c262934e88748e7a2",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.99,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.92,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 1,
+        "maybe": 0,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1511,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 10,
+      "arxivId": "260914992",
+      "title": "MTAC-IFBench: Benchmarking Instruction-Following in Multi-Turn Agentic Coding",
+      "contentHash": "a9474e6239f48dbf48c1ab1eb045804555e9f189f66772f43a9ec1ae1c93c38d",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.97,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.93,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.98,
+        "maybe": 0.01,
+        "exclude": 0.01
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1495,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 11,
+      "arxivId": "260913975",
+      "title": "Introspective Uncertainty Estimation for LLM-Based Code Generation",
+      "contentHash": "f49f7b0358d927e955d0330bcfc74c73581238ec891f3b2f2a2c14790d315521",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The publication is clearly not a journal or conference paper.",
+      "modelDecision": "include",
+      "modelConfidence": 0.49,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "no",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.81,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.74
+      },
+      "probabilities": {
+        "include": 0.66,
+        "maybe": 0.21,
+        "exclude": 0.13
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1574,
+        "output_tokens": 229
+      }
+    },
+    {
+      "excelRow": 12,
+      "arxivId": "260912039",
+      "title": "Reality Is the Final Verifier: On Two Key Gaps in Agentic Software Engineering",
+      "contentHash": "fe04694e1c0730d9426429e7a240b3660152034347b3bdf4084bfa1f237c6715",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not report a primary empirical study.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.93,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "no",
+        "empirical": "no",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.95,
+        "evaluatesAiCoding": 0.53,
+        "empirical": 1,
+        "focus": 0.68
+      },
+      "probabilities": {
+        "include": 0,
+        "maybe": 0.05,
+        "exclude": 0.95
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1530,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 13,
+      "arxivId": "260910945",
+      "title": "LLMVul: A Vulnerability-Labeled Dataset of LLM-Generated C/C++ Functions from Real Production Repositories",
+      "contentHash": "06687e5a342b787139b62825cbb753b7ec7bd2910f7672826662ef8f6246c82a",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "The evidence or model agreement is insufficient for definite inclusion.",
+      "modelDecision": "include",
+      "modelConfidence": 0.33,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.92,
+        "evaluatesAiCoding": 0.99,
+        "empirical": 0.98,
+        "focus": 0.83
+      },
+      "probabilities": {
+        "include": 0.55,
+        "maybe": 0.3,
+        "exclude": 0.15
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1632,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 14,
+      "arxivId": "260910132",
+      "title": "Context operations to architecture modelling output from large language models and evaluation criteria for their use in systems engineering design",
+      "contentHash": "88d2393d778320a757a6fa2be8cf84cc27b59ef4c954e7464a9ecca3ba7e8285",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not report a primary empirical study.",
+      "modelDecision": "maybe",
+      "modelConfidence": 0.23,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "no",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.93,
+        "evaluatesAiCoding": 0.88,
+        "empirical": 0.94,
+        "focus": 0.63
+      },
+      "probabilities": {
+        "include": 0.18,
+        "maybe": 0.49,
+        "exclude": 0.33
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1365,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 15,
+      "arxivId": "260909769",
+      "title": "XAgent: eXecution-guided Agentic AI for Effective Localization and Resolution of GitHub Issues",
+      "contentHash": "c76c0f60ace930daec2923b190da73bfb7f53d88c00c6a2ad541f1a95426b15f",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.9,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.79,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.04,
+        "maybe": 0.02,
+        "exclude": 0.93
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1477,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 16,
+      "arxivId": "260909560",
+      "title": "The Vibe Shift in Software Engineering: Evaluating AI-Led Conversational Programming for Performance, Cognition, and Responsible Adoption",
+      "contentHash": "23efffe2e1014e189515549c54f6d7b795a8a4f3a70afa7cda6fb0e08eda60e7",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.98,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.8,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.99,
+        "maybe": 0,
+        "exclude": 0.01
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1576,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 17,
+      "arxivId": "260911987",
+      "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+      "contentHash": "6be8d1dddfeee0ba27ef18637d118e0abaf8fc46374821e152ddd68a7263633c",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.9,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.83,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.9299999999999999,
+        "maybe": 0.05,
+        "exclude": 0.02
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1769,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 18,
+      "arxivId": "260909022",
+      "title": "It Is Not My Code Anymore",
+      "contentHash": "b0cb19d382b6a94a3744e83b85c449178ecb7edbce3b1f04aa491c51050577fd",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not report a primary empirical study.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.95,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "no",
+        "empirical": "no",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.56,
+        "evaluatesAiCoding": 0.68,
+        "empirical": 1,
+        "focus": 0.97
+      },
+      "probabilities": {
+        "include": 0,
+        "maybe": 0.03,
+        "exclude": 0.97
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1415,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 19,
+      "arxivId": "260908810",
+      "title": "Measuring the Security of the Evolving Software Supply Chain: a Research Agenda",
+      "contentHash": "6a76512b8fb1c80a7ccc2db5d17cb91d57478d5697d1b4e84facaccc15310afa",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not report a primary empirical study.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.94,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "no",
+        "focus": "unclear"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.85,
+        "evaluatesAiCoding": 0.39,
+        "empirical": 1,
+        "focus": 0.63
+      },
+      "probabilities": {
+        "include": 0,
+        "maybe": 0.04,
+        "exclude": 0.96
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1455,
+        "output_tokens": 231
+      }
+    },
+    {
+      "excelRow": 20,
+      "arxivId": "260907779",
+      "title": "CodeTD: Topology of Attention Detects Hallucinations in Code LLMs",
+      "contentHash": "11d7fc38adb5475b212f45c274ff637cdfeba6baf06b4564824f9e378d6dd5b1",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "A potential exclusion criterion has insufficient confidence for a definite decision.",
+      "modelDecision": "include",
+      "modelConfidence": 0.8,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.7,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.7
+      },
+      "probabilities": {
+        "include": 0.86,
+        "maybe": 0.05,
+        "exclude": 0.09
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1426,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 21,
+      "arxivId": "260907754",
+      "title": "Do AI Coding Assistants Check Before They Install? A Pre-Registered Demand-Side Audit of Trust Signals in the Research Software Supply Chain",
+      "contentHash": "9c388759776f268f63aa09f5749f860ba0cd8dd23d8769ea083c67f83c576f5a",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.99,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.86,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.99,
+        "maybe": 0.01,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1638,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 22,
+      "arxivId": "260904680",
+      "title": "How Developers Discuss Generative AI: A Longitudinal Study of the Visual Studio Code Community",
+      "contentHash": "0fda8fd83fbea50c50fc32883aa9b6c9612a24b1e8c1dc9ff377ab68121ae487",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "The evidence or model agreement is insufficient for definite inclusion.",
+      "modelDecision": "include",
+      "modelConfidence": 0.9,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.79,
+        "evaluatesAiCoding": 0.55,
+        "empirical": 1,
+        "focus": 0.87
+      },
+      "probabilities": {
+        "include": 0.93,
+        "maybe": 0.06,
+        "exclude": 0.01
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1558,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 23,
+      "arxivId": "260904535",
+      "title": "An Empirical Analysis of CodeQL False Positives and Query Refinements for Java Vulnerabilities",
+      "contentHash": "c516cd47e59bce89b585666d59460d0c20435d9a5ec3a5307ab725102d9d26b6",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "include",
+      "modelConfidence": 0.09,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.91,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.9
+      },
+      "probabilities": {
+        "include": 0.39,
+        "maybe": 0.25,
+        "exclude": 0.36
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1624,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 24,
+      "arxivId": "260903309",
+      "title": "TIPCODER: Reinforcement Learning Boosted Test-time Instruction Proposer for Code Generation",
+      "contentHash": "c2f2a220f527768a22e6e2962f3cc26058df99cba89122ceafe1677d0ed3a60d",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.96,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.93,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.02,
+        "maybe": 0.01,
+        "exclude": 0.97
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1452,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 25,
+      "arxivId": "260901481",
+      "title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+      "contentHash": "f00ea9d525ee748db6369193bb543957b5bc7c7530b99412a630607aa468ea35",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.88,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.76,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.05,
+        "maybe": 0.03,
+        "exclude": 0.92
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1574,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 26,
+      "arxivId": "260901271",
+      "title": "What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal",
+      "contentHash": "4192288a6b48fbc9606a1629210599d81d59b134e98414f7baf41baf044c8871",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.98,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.85,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.93
+      },
+      "probabilities": {
+        "include": 0.99,
+        "maybe": 0.01,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1560,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 27,
+      "arxivId": "260901677",
+      "title": "Skill-as-API: Confidential Multi-Agent Coordination for Agentic Software Engineering",
+      "contentHash": "2fba082701c408939d960d643ffe12a8270f43b2d04396f24d337af6fd46286e",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.98,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.9,
+        "evaluatesAiCoding": 0.88,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0,
+        "maybe": 0.01,
+        "exclude": 0.99
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1485,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 28,
+      "arxivId": "260900579",
+      "title": "Predicting Program Exit Code with LLMs and Programming Language Semantics",
+      "contentHash": "6e56a5ab1c221eedea2597c9cf0fd6c48e4df07f2b7ebc9348adcfc8b26774ce",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.88,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.93,
+        "evaluatesAiCoding": 0.99,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.92,
+        "maybe": 0.06,
+        "exclude": 0.02
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1495,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 29,
+      "arxivId": "260830793",
+      "title": "LipCoder: Voice-Enabled Coding Toolkit",
+      "contentHash": "eefc6112cc4695d4a5e98ae3c18a09808ee04c947ce01b000b79ea176a5b081e",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.88,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.88,
+        "evaluatesAiCoding": 0.99,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.04,
+        "maybe": 0.04,
+        "exclude": 0.92
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1394,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 30,
+      "arxivId": "260830701",
+      "title": "A Phased Workflow for Operating LLM-Based Coding Agents",
+      "contentHash": "cb9b63f5f822c2e7de1b58115fbe4bcb67c1b57db73c540ea70a23f03246b952",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.79,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "no",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.93,
+        "evaluatesAiCoding": 0.84,
+        "empirical": 0.59,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.01,
+        "maybe": 0.13,
+        "exclude": 0.86
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1410,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 31,
+      "arxivId": "260830572",
+      "title": "Practical Implementation Report on Introducing Spec-Driven Development Using AI Agents in Software Development PBL",
+      "contentHash": "f540a9741fe867c553b83742c60db4eccd7efc06fdf51afaca35f59c7c00d97f",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "A potential exclusion criterion has insufficient confidence for a definite decision.",
+      "modelDecision": "include",
+      "modelConfidence": 0.76,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.87,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.56
+      },
+      "probabilities": {
+        "include": 0.84,
+        "maybe": 0.07,
+        "exclude": 0.09
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1442,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 32,
+      "arxivId": "260830112",
+      "title": "Drishti: AI-Led Human-Directed Vulnerability Auditing for 5G Cores",
+      "contentHash": "0b5cb839a01f6097f3bf8d93f72a75aa474bae923a70022dbbd945015c1d6227",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "include",
+      "modelConfidence": 0.25,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.88,
+        "evaluatesAiCoding": 0.95,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.5,
+        "maybe": 0.22,
+        "exclude": 0.28
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1529,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 33,
+      "arxivId": "260829550",
+      "title": "Towards Effective Generation of Interactive Visualizations with Vibe Coding: An Empirical Study",
+      "contentHash": "69c04d8b10a0086701c5aed58e52068d468de31b5533179092556ace6eb789b2",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.99,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.86,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 1,
+        "maybe": 0,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1464,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 34,
+      "arxivId": "260826391",
+      "title": "Software Aging in LLM-Generated Applications: Runtime Evidence, Static Analysis, and Human-Written Comparisons",
+      "contentHash": "599bd62a7e7602c88151289e8cdfb6bdb39fc87ede357e373e2b5d7e93d429f0",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 1,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.66,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 1,
+        "maybe": 0,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1556,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 35,
+      "arxivId": "260825202",
+      "title": "SpecMine: A Large-Scale Corpus of Spec-Driven Development Artifacts",
+      "contentHash": "45e25a4a9ce8f14c7d9606d89a867f942eba5bcbbfbc3e429dda17ba4e10710a",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not evaluate AI-assisted or AI-generated coding or its products.",
+      "modelDecision": "maybe",
+      "modelConfidence": 0.25,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "no",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.88,
+        "evaluatesAiCoding": 0.92,
+        "empirical": 0.99,
+        "focus": 0.48
+      },
+      "probabilities": {
+        "include": 0.02,
+        "maybe": 0.51,
+        "exclude": 0.47
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1631,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 36,
+      "arxivId": "260825174",
+      "title": "Model-Based Agentic Software Engineering",
+      "contentHash": "3bba38358bb0e82815d6bd0659a4ced6f7a3d5a44de92b8e1f8d2df0baf18ca3",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.89,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "no",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.94,
+        "evaluatesAiCoding": 0.4,
+        "empirical": 0.71,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0,
+        "maybe": 0.07,
+        "exclude": 0.93
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1474,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 37,
+      "arxivId": "260824962",
+      "title": "Evaluating and Preventing Security Smells in AI-Generated Ansible Code",
+      "contentHash": "1044d7751283841ec7d9d5512c33e5944a226ba90df6f786b56cbc47d0511426",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "A potential exclusion criterion has insufficient confidence for a definite decision.",
+      "modelDecision": "include",
+      "modelConfidence": 0.11,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.91,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.74
+      },
+      "probabilities": {
+        "include": 0.39999999999999997,
+        "maybe": 0.19,
+        "exclude": 0.41
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1498,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 38,
+      "arxivId": "260823118",
+      "title": "From Metrics to Improvement: A Lifecycle-Aware LLM Feedback Framework for Research Software Quality",
+      "contentHash": "c912e01b6d53d231e33d4e3912bdc90e90561abffc1e94445502cf170ac243e9",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "include",
+      "modelConfidence": 0.14,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.88,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.43,
+        "maybe": 0.16,
+        "exclude": 0.41
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1557,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 39,
+      "arxivId": "260822930",
+      "title": "Concepts for Securing Agentic AI Coding and the Terok Environment",
+      "contentHash": "03f5505f2f617d9443a3d65d5ae859e8946c413e2447dac0ceb3fe42b6382094",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not report a primary empirical study.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.87,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "no",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.92,
+        "evaluatesAiCoding": 1,
+        "empirical": 0.98,
+        "focus": 0.98
+      },
+      "probabilities": {
+        "include": 0.01,
+        "maybe": 0.08,
+        "exclude": 0.91
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1511,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 40,
+      "arxivId": "260822652",
+      "title": "Evaluating Inference-Time Defenses Against Package Hallucination in LLM-Generated Code",
+      "contentHash": "0318eb9ff9ab17b9ca32c87c7ed8478e3acabd898dc08034cf4ffb4dc86ab20a",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.67,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.89,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.78,
+        "maybe": 0.07,
+        "exclude": 0.15
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1631,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 41,
+      "arxivId": "260822638",
+      "title": "Do Not Copy/Paste: Soft Barriers for Copying in AI-Assisted Programming",
+      "contentHash": "8f484d8e718aea16a9c8feba36f8ac953a78e00b1a4588a70c76700d108deea3",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "include",
+      "modelConfidence": 0.14,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.71,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.81
+      },
+      "probabilities": {
+        "include": 0.43,
+        "maybe": 0.33,
+        "exclude": 0.24
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1588,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 42,
+      "arxivId": "260826184",
+      "title": "TutorTrace: A Dataset and Taxonomy for Classifying Learner Behavioral States during AI-Assisted Programming Education",
+      "contentHash": "d47d9c7677ec061f694cdd066b3797a0a54186bf52fad066bcbef5e39e8dbb6a",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.2,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.88,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.3,
+        "maybe": 0.23,
+        "exclude": 0.47
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1521,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 43,
+      "arxivId": "260823610",
+      "title": "From Traceability to Justifiability: Accountability Structures in Agentic Software Engineering",
+      "contentHash": "cd37bef34b58322436ceb5557667472b1f147fefaab69f40ec7034425cd51b08",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "A potential exclusion criterion has insufficient confidence for a definite decision.",
+      "modelDecision": "include",
+      "modelConfidence": 0.47,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "no",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.92,
+        "evaluatesAiCoding": 0.49,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.65,
+        "maybe": 0.27,
+        "exclude": 0.08
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1628,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 44,
+      "arxivId": "260821208",
+      "title": "Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration",
+      "contentHash": "1ef89f2db84ae7bddb3ce85ac60138f58d1b9a6fae362e56fbb9c82f6ba98233",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.94,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.65,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.96,
+        "maybe": 0.02,
+        "exclude": 0.02
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1571,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 45,
+      "arxivId": "260820963",
+      "title": "Vibe Coding and Web Application Security: A Twin-Prompt Study",
+      "contentHash": "d1e9ad37f968812a7c18495d817914b207b76a82c1c4a902028118f2f6a50bd2",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.98,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.9,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.98,
+        "maybe": 0.02,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1443,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 46,
+      "arxivId": "260820446",
+      "title": "Vibe Coding: Practice, Performance, Productivity, and Risk -A State-of-the-Art Review",
+      "contentHash": "369be627b6b392013929d55442c9cb3813b9f52ee2b0b88085db47df4bef55ef",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "This is a review of existing work, not a primary empirical study.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.6,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "no",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.9,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.12,
+        "maybe": 0.15,
+        "exclude": 0.73
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1580,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 47,
+      "arxivId": "260820195",
+      "title": "From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
+      "contentHash": "687784e49f8c7da9abfd8b4e494d686408b3b8b2bc7765c1a68014577da8168f",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.93,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.87,
+        "evaluatesAiCoding": 0.76,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.95,
+        "maybe": 0.04,
+        "exclude": 0.01
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1701,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 48,
+      "arxivId": "260817504",
+      "title": "Agentic Porting, Construction and Initial Verification and Validation of Libraries within the Open Source Unified TRAnsient Multi-Phase Advanced Reactor simulation Kit (Outram Park) Part I: A Software Engineering Log for Thermal Hydraulics",
+      "contentHash": "24abe29b6c0de2bffa4a48853ba8f393373d1e5cc59b78865b5f297eb17b2698",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.44,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.76,
+        "evaluatesAiCoding": 1,
+        "empirical": 0.98,
+        "focus": 0.98
+      },
+      "probabilities": {
+        "include": 0.1,
+        "maybe": 0.27,
+        "exclude": 0.63
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1606,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 49,
+      "arxivId": "260816618",
+      "title": "The Specification Paradox: Rethinking Requirements Engineering in the Age of AI",
+      "contentHash": "7ced8bdad178495b879912eb9b8b6f980dc6df98ae6142980f735b2cd757b28a",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not report a primary empirical study.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.93,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "no",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.92,
+        "evaluatesAiCoding": 0.95,
+        "empirical": 1,
+        "focus": 0.61
+      },
+      "probabilities": {
+        "include": 0,
+        "maybe": 0.05,
+        "exclude": 0.95
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1495,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 50,
+      "arxivId": "260816318",
+      "title": "Revisiting the Performance of Generative Artificial Intelligence on Introductory Object-Oriented Programming Assessments: Insights from 2026",
+      "contentHash": "a4175256617b6c5bf3776cab32cdbe1bac0073e4db0943e73b450de402984be5",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 1,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.86,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 1,
+        "maybe": 0,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1560,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 51,
+      "arxivId": "260816302",
+      "title": "Comparing the Quality of Code Generated by Vibe Coding Tools",
+      "contentHash": "37aa9f2e23cab1653b20334d190bafd4624d057c96887a2718145dc04940109e",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.99,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.92,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 1,
+        "maybe": 0,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1440,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 52,
+      "arxivId": "260816187",
+      "title": "Securing AI-Generated Code: A Just-in-Time Vulnerability Detection and Remediation Pipeline",
+      "contentHash": "82724359af06defc76d78f9494415d4b816db7f3d10056f8f0e957dcf089f5c5",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.2,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.64,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.4,
+        "maybe": 0.14,
+        "exclude": 0.45999999999999996
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1697,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 53,
+      "arxivId": "260816022",
+      "title": "OpenHarmony Bench: Evaluating LLMs and Coding Agents on OpenHarmony App Development",
+      "contentHash": "e85d701f7ef33f771a30425c23653393cb9ad5ef754bb340dd3e6f5660b240a0",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.99,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.87,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.99,
+        "maybe": 0.01,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1639,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 54,
+      "arxivId": "260815678",
+      "title": "Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts in Agentic Software Development",
+      "contentHash": "7328b2d0ce7a762fc4817a1162ccb827f770af7d14d3a5e54b503a37e9370e2e",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not evaluate AI-assisted or AI-generated coding or its products.",
+      "modelDecision": "maybe",
+      "modelConfidence": 0.16,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "no",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.85,
+        "evaluatesAiCoding": 0.8,
+        "empirical": 0.99,
+        "focus": 0.99
+      },
+      "probabilities": {
+        "include": 0.36,
+        "maybe": 0.44,
+        "exclude": 0.2
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1584,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 55,
+      "arxivId": "260814876",
+      "title": "Workspace Topology as an Attack Vector in Agentic Coding Assistants",
+      "contentHash": "b4c051b0a92a0238502f01343c23129ccc3927453c2390658d2b0fc65ba3521d",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.98,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.73,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.99,
+        "maybe": 0.01,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1497,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 56,
+      "arxivId": "260813884",
+      "title": "Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Developmen",
+      "contentHash": "918ba6863a77193d1627a36582bce357bbe814980229abc8adebdf4258c4bcb0",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.98,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.9,
+        "evaluatesAiCoding": 0.99,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.99,
+        "maybe": 0.01,
+        "exclude": 0
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1688,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 57,
+      "arxivId": "260812771",
+      "title": "Memorization Diagnostics for Code LLMs Should be Scale-Aware",
+      "contentHash": "54bfaf5fad88df79ef55a31b492ecc0c8f6a06e10b63e2a00a539a83d17daa9a",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.73,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.96,
+        "evaluatesAiCoding": 0.99,
+        "empirical": 0.93,
+        "focus": 0.99
+      },
+      "probabilities": {
+        "include": 0.82,
+        "maybe": 0.16,
+        "exclude": 0.02
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1532,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 58,
+      "arxivId": "260812311",
+      "title": "The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study",
+      "contentHash": "25139d98532949aeb2120bcc37d0f55de2a4b50a9e6bafbd1d5146379384e868",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The main contribution is a particular solution rather than its broader evaluation.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.32,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.81,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.18,
+        "maybe": 0.28,
+        "exclude": 0.54
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1529,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 59,
+      "arxivId": "260828641",
+      "title": "Terminal-Bench-LILT: Multilingual Agentic Coding Benchmark Grounded in Language, Region, and Culture",
+      "contentHash": "d2f9ad1b81c7f468baac7128c3df5796054159694fdb7d524b8d8d8124a103b6",
+      "classification": "Definitely include",
+      "decision": "include",
+      "screeningReason": "The title and abstract support an English, primary empirical evaluation of AI coding; publication venue remains unverified.",
+      "modelDecision": "include",
+      "modelConfidence": 0.94,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.93,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.99
+      },
+      "probabilities": {
+        "include": 0.96,
+        "maybe": 0.03,
+        "exclude": 0.01
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1451,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 60,
+      "arxivId": "260809068",
+      "title": "Pseudo2CodeQA: A Benchmark for LLM-Based Structured Algorithmic Reasoning in Code Generation",
+      "contentHash": "d18bfeb0e2bb0c9757b39d7dcf3de64c9634499b23ca1eb48192f72db4e1bf3a",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "The evidence or model agreement is insufficient for definite inclusion.",
+      "modelDecision": "include",
+      "modelConfidence": 0.12,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "evaluation"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.91,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.85
+      },
+      "probabilities": {
+        "include": 0.42,
+        "maybe": 0.24,
+        "exclude": 0.34
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1603,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 61,
+      "arxivId": "260808528",
+      "title": "Task-to-Model Optimization for Enterprise LLM Coding Assistants: A Data-Driven Framework for Cost-Optimal Routing",
+      "contentHash": "86dfd1c105c767b6c1323ffcfa8a70a7e4abee885c2f441cb7b1ca0dd03aef79",
+      "classification": "Definitely exclude",
+      "decision": "exclude",
+      "screeningReason": "The paper does not report a primary empirical study.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.86,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "no",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.9,
+        "evaluatesAiCoding": 0.97,
+        "empirical": 0.87,
+        "focus": 1
+      },
+      "probabilities": {
+        "include": 0.01,
+        "maybe": 0.08,
+        "exclude": 0.91
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1565,
+        "output_tokens": 230
+      }
+    },
+    {
+      "excelRow": 62,
+      "arxivId": "260806829",
+      "title": "How Reasoning Shapes Social Bias in LLM-Generated Code?",
+      "contentHash": "24517739e0a9d99b3d14c3ce30fac65aef4c2c1119e44db4d0f87514e9aea4e1",
+      "classification": "Maybe include",
+      "decision": "maybe",
+      "screeningReason": "A potential exclusion criterion has insufficient confidence for a definite decision.",
+      "modelDecision": "exclude",
+      "modelConfidence": 0.22,
+      "criteria": {
+        "english": "yes",
+        "journalOrConference": "unclear",
+        "evaluatesAiCoding": "yes",
+        "empirical": "yes",
+        "focus": "solution"
+      },
+      "criterionProbabilities": {
+        "english": 1,
+        "journalOrConference": 0.9,
+        "evaluatesAiCoding": 1,
+        "empirical": 1,
+        "focus": 0.47
+      },
+      "probabilities": {
+        "include": 0.32,
+        "maybe": 0.2,
+        "exclude": 0.48
+      },
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 1531,
+        "output_tokens": 230
+      }
+    }
+  ]
+}
