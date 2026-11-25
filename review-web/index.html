@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codebook · IA generativa en desarrollo de software</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
+<script src="./chat.js" defer></script>
+</head>
+<body>
+<main>
+  <div class="versions">
+    <nav id="version-navigation" class="version-navigation" aria-label="Versiones del codebook">
+      <button id="previous-version" type="button" aria-label="Versión anterior" title="Versión anterior" disabled>←</button>
+      <span id="current-version" aria-live="polite">Versión —</span>
+      <button id="next-version" type="button" aria-label="Versión siguiente" title="Versión siguiente" disabled>→</button>
+    </nav>
+    <p id="status" role="status">Cargando desde Drive…</p>
+    <button id="open-chat" type="button" aria-controls="paper-chat" aria-expanded="false">Chat de papers</button>
+  </div>
+  <div class="workspace" id="review" data-step="codes">
+    <section class="pane" id="code-panel" aria-labelledby="code-heading">
+      <div class="pane-header">
+        <div class="code-heading-row">
+          <h2 id="code-heading">Códigos <span id="code-count" class="count"></span></h2>
+          <button id="code-sort" type="button">Orden: cantidad ↓</button>
+        </div>
+        <input id="search" type="search" aria-label="Buscar código" placeholder="Buscar código">
+      </div>
+      <details class="code-chart" id="code-chart" open hidden>
+        <summary>12 códigos con más documentos</summary>
+        <div class="chart-frame">
+          <ol id="bar-chart" aria-label="Códigos ordenados por cantidad de documentos"></ol>
+          <div id="chart-exits" class="chart-exits" aria-hidden="true" inert></div>
+        </div>
+      </details>
+      <div id="codes" class="pane-body list"></div>
+    </section>
+    <section class="pane" id="document-panel" aria-labelledby="document-heading">
+      <div class="pane-header">
+        <button class="back" type="button" data-back="codes">← Códigos</button>
+        <h2 id="document-heading" tabindex="-1">Detalles del código</h2>
+        <p id="selected-code-description"></p>
+        <div id="document-controls" class="document-controls" hidden>
+          <h3>Documentos</h3>
+          <select id="document-sort" aria-label="Orden de los documentos">
+            <option value="id">ID ↑</option>
+            <option value="date">Fecha ↓</option>
+            <option value="version">Versión ↑</option>
+          </select>
+        </div>
+      </div>
+      <div id="documents" class="pane-body list" aria-live="polite"></div>
+    </section>
+    <section class="pane" id="evidence-panel" aria-labelledby="evidence-heading">
+      <div class="pane-header">
+        <button class="back" type="button" data-back="documents">← Documentos</button>
+        <h2 id="evidence-heading" tabindex="-1">Evidencias</h2>
+        <p id="selected-document"></p>
+      </div>
+      <div id="evidence" class="pane-body" aria-live="polite"></div>
+    </section>
+  </div>
+  <section id="paper-chat" aria-labelledby="chat-heading" hidden>
+    <div class="chat-heading">
+      <h2 id="chat-heading">Chat de papers</h2>
+      <button id="chat-reset" type="button">Nueva conversación</button>
+      <button id="chat-close" type="button" aria-label="Cerrar chat">×</button>
+    </div>
+    <p id="chat-context"></p>
+    <div id="chat-log" role="log" aria-label="Conversación">
+      <p class="empty">Preguntá por el documento abierto o por cualquier paper.</p>
+    </div>
+    <p id="chat-status" role="status"></p>
+    <form id="chat-form">
+      <label for="chat-input" class="visually-hidden">Pregunta</label>
+      <textarea id="chat-input" rows="2" maxlength="2000" placeholder="Escribí tu pregunta…" required></textarea>
+      <button id="chat-send" type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
+</body>
+</html>
