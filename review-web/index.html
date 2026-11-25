@@ -23,13 +23,12 @@
     <section class="pane" id="code-panel" aria-labelledby="code-heading">
       <div class="pane-header">
         <div class="code-heading-row">
-          <h2 id="code-heading">Códigos <span id="code-count" class="count"></span></h2>
+          <h2 id="code-heading" tabindex="-1">Códigos <span id="code-count" class="count"></span></h2>
           <button id="code-sort" type="button">Orden: cantidad ↓</button>
         </div>
-        <input id="search" type="search" aria-label="Buscar código" placeholder="Buscar código">
       </div>
       <details class="code-chart" id="code-chart" open hidden>
-        <summary>12 códigos con más documentos</summary>
+        <summary>Códigos hasta el 50 % de las apariciones</summary>
         <div class="chart-frame">
           <ol id="bar-chart" aria-label="Códigos ordenados por cantidad de documentos"></ol>
           <div id="chart-exits" class="chart-exits" aria-hidden="true" inert></div>

@@ -28,6 +28,6 @@ La gráfica de barras anima los cambios del destino y respeta la preferencia de 
 
 El navegador también guarda cada versión acumulada ya consultada. Cambiar el origen o el destino entre versiones conocidas no hace peticiones. Al recargar, la página consulta un manifiesto de versiones y metadatos para detectar tandas nuevas. Solo descarga de nuevo una versión acumulada si falta en la caché o si cambian los archivos de los que depende.
 
-El panel central muestra el título, la descripción y los documentos del código elegido. Los documentos se pueden ordenar por ID ascendente, fecha de publicación descendente o primera versión en la que aparecen, de menor a mayor.
+El panel central muestra el título, la descripción y los documentos del código elegido. Los documentos se pueden ordenar por ID ascendente, fecha de publicación descendente o primera versión en la que aparecen, de menor a mayor. La gráfica incluye los códigos de mayor frecuencia cuyo total acumulado no supera el 50 % de las asociaciones código–documento de la versión elegida. Los empates se ordenan por ID.
 
 El servidor revisa Drive cada minuto y guarda las tandas con ambas hojas completas, aunque no haya visitantes. El navegador precarga las versiones disponibles en segundo plano y vuelve a revisar el catálogo cada minuto mientras la página está visible. Las versiones nuevas quedan disponibles con las flechas sin cambiar la versión activa.

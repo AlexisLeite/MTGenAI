@@ -112,9 +112,17 @@ function animateBarOrder(chart, exits, previous) {
 }
 
 function renderBarChart() {
-  const top = [...codes].filter(([, code]) => code.documents.size)
-    .sort(([, a], [, b]) => compareDocumentCounts(a, b))
-    .slice(0, 12);
+  const ranked = [...codes].filter(([, code]) => code.documents.size)
+    .sort(([, a], [, b]) => compareDocumentCounts(a, b));
+  const total = ranked.reduce((sum, [, code]) => sum + code.documents.size, 0);
+  let included = 0;
+  const top = [];
+  for (const entry of ranked) {
+    const count = entry[1].documents.size;
+    if (2 * (included + count) > total) break;
+    included += count;
+    top.push(entry);
+  }
   const details = find('code-chart');
   const chart = find('bar-chart');
   const exits = find('chart-exits');
@@ -132,7 +140,8 @@ function renderBarChart() {
   }
   details.hidden = !top.length;
   const maximum = Math.max(1, reviewMetadata.chartMaximum);
-  chart.setAttribute('aria-label', 'Códigos ordenados por cantidad de documentos. Ancho completo: ' + maximum + ' documentos.');
+  chart.setAttribute('aria-label', 'Códigos hasta el 50 % de las apariciones: ' + included + ' de ' + total +
+    '. Ancho completo: ' + maximum + ' documentos.');
   chart.replaceChildren(...top.map(([key, code]) => {
     const item = el('li');
     const button = choice(key === activeCode, () => selectCode(key));
@@ -155,10 +164,9 @@ function renderBarChart() {
 
 function renderCodes() {
   const list = find('codes');
-  const query = normalize(find('search').value);
-  const options = [...codes].filter(([, code]) => normalize([code.id, code.title, code.description].join(' ')).includes(query));
+  const options = [...codes];
   options.sort(([, a], [, b]) => (codeSort === 'count' ? compareDocumentCounts : compareCodeIds)(a, b));
-  find('code-count').textContent = query ? options.length + '/' + codes.size : codes.size;
+  find('code-count').textContent = codes.size;
   list.replaceChildren(...options.map(([key, code]) => {
     const button = choice(key === activeCode, () => selectCode(key));
     button.dataset.codeKey = key;
@@ -499,7 +507,6 @@ find('document-sort').onchange = () => {
   renderDocuments();
   find('documents').scrollTop = 0;
 };
-find('search').addEventListener('input', renderCodes);
 find('code-sort').onclick = () => {
   codeSort = codeSort === 'count' ? 'id' : 'count';
   find('code-sort').textContent = codeSort === 'count' ? 'Orden: cantidad ↓' : 'Orden: ID ↑';
@@ -507,7 +514,7 @@ find('code-sort').onclick = () => {
   find('codes').scrollTop = 0;
 };
 for (const button of document.querySelectorAll('[data-back]')) {
-  button.onclick = () => step(button.dataset.back, button.dataset.back === 'codes' ? 'search' : 'document-heading');
+  button.onclick = () => step(button.dataset.back, button.dataset.back === 'codes' ? 'code-heading' : 'document-heading');
 }
 loadReview().then(() => refreshVersionCache(false));
 setInterval(() => refreshVersionCache(true), 60000);

@@ -70,19 +70,23 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid 
 .document-controls h3 { margin: 0; font-size: .9rem; }
 .document-controls select { font: inherit; font-size: .8rem; color: inherit; background: #fff; border: 1px solid var(--border); border-radius: .4rem; padding: .16rem .4rem; }
 .document-metadata { display: block; margin-top: .15rem; font-size: .8rem; color: var(--muted); }
-#search { width: 100%; margin-top: .45rem; }
 .code-heading-row { display: flex; justify-content: space-between; align-items: center; gap: .35rem; flex-wrap: wrap; }
 #code-sort { border: 1px solid var(--border); border-radius: .4rem; background: white; padding: .2rem .4rem; font-size: .8rem; }
 .code-chart { flex: none; border-bottom: 1px solid var(--border); }
+.code-chart[open]:not([hidden]) { flex: 1; min-height: 0; display: flex; flex-direction: column; border-bottom: 0; }
+.code-chart[open]::details-content { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.code-chart[open]:not([hidden]) ~ #codes,
+#code-panel:has(> .code-chart[open]:not([hidden])) #code-sort { display: none; }
 .code-chart summary { cursor: pointer; padding: .42rem .7rem; color: var(--green); font-size: .83rem; font-weight: 650; }
-.chart-frame { position: relative; }
+.chart-frame { position: relative; display: flex; flex: 1; min-height: 0; flex-direction: column; }
 .chart-exits { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
 .chart-exits .chart-code { position: absolute; }
 #bar-chart {
   list-style: none;
   margin: 0;
   padding: .2rem .6rem .4rem;
-  max-height: min(340px, 44dvh);
+  flex: 1;
+  min-height: 0;
   overflow: auto;
 }
 .chart-code {
